@@ -1,0 +1,47 @@
+html{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.nav{
+    background-color: #431717;
+    color: aliceblue;
+}
+
+.header{
+    height: 20vh;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(3, 42, 42);
+    text-shadow: black;
+}
+
+
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+#list-items{
+    display: inline-flex;
+}
+
+.projects{
+    display: flex;
+    align-items: baseline;
+    margin: 5px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#projects{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.project-tile{
+    color: aliceblue;
+    font: outline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
